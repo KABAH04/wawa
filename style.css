@@ -1,0 +1,116 @@
+.tail{ 
+	opacity: 0;
+	margin-top:-130px;
+  margin-bottom: 50px;
+  margin-left: 13px;
+  color: white;
+  font-size: 13px;
+
+	/* display: none; */
+	/* color: white;
+	font-size: 10px; */
+	
+}
+
+div.projet a:hover .tail{
+opacity: 1;
+	display: flex;
+
+}
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 195px;
+  max-height: 190px;
+  margin-bottom: 10px;
+  margin-left: 100;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 195px;
+   max-height: 100px;
+  
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+ 
+}
+div .desc:hover{
+  text-decoration: underline;
+}
+.rond{
+  border: 1px solid #00809D;
+  border-radius: 30px;
+  max-width:200px;
+  max-height: 50px;
+  margin: 15px;
+  
+}  
+#mini{
+  display: flex;
+  
+}
+.flotter{
+  float: left;
+}
+.trait{
+  border: 0.3px solid rgb(197, 195, 195);
+ margin-top: -18px;
+ }
+ .menu{
+  display: flex; 
+  margin-left: 300px;
+
+ }
+ div a{
+  text-decoration: none;
+  color: grey;
+ } 
+ .bloc1 li{
+  list-style: none;
+  float: left;
+  margin-top: 30px;
+ }
+ .trait2{
+  width: 50px;
+  border: 2px solid #00809D;
+  margin-left: 20px;
+ }
+ .men{
+  margin-left: 20px;
+ }
+ .max{
+  border-radius: 50px;
+  margin-bottom: 40px;
+ width: 700px;
+ height: 60px;
+ }
+ .search{
+  margin-left: 10px;
+  
+ }
+ .max{
+border: 3px solid white;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px rgb(229,226,226);
+ }
+ .bloc2{
+  margin-top: 25px;
+ }
+.lien1{
+  margin-left: 400px;
+  margin-top: -25px;
+}
+.gallery:hover{
+box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgb(0, 0, 0.22);
+transition: 0.3s;
+}
